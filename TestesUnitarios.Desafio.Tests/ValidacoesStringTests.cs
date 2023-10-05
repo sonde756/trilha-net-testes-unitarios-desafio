@@ -13,7 +13,7 @@ public class ValidacoesStringTests
 
         // Arrange
         var texto = "a";
-        var resultadoEsperado = 0;
+        var resultadoEsperado = 1;
 
         // Act
         var resultado = _validacoes.RetornarQuantidadeCaracteres(texto);
@@ -50,7 +50,7 @@ public class ValidacoesStringTests
 
         // Assert
         //TODO: Corrigir o Assert.False com base no retorno da chamada ao método
-        Assert.False(true);
+        Assert.False(resultado);
     }
 
     //TODO: Corrigir a anotação [Fact]
